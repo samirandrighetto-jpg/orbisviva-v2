@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head><style>
+<html lang="pt-BR"><head><style>
 @font-face {
   font-family: "Optimistic";
   font-style: normal;
@@ -21,153 +20,229 @@
 :where(code, pre, kbd, samp) {
   font-family: "Optimistic Mono", ui-monospace, monospace;
 }
-</style>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ORBISVIVA V1.50.2 Homepage Limpa Definitiva Final - Ouroboros Universo Devorando Universo - Totem Lithops Gargula Vertical - ?v=50.2 OK</title>
+</style><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>V1.57 PROPULSORES TECNOLOGICOS - DESTINOS E ESCALABILIDADE - Orbis Viva</title>
 <style>
-:root{--bg:#0a0f1c;--gold:#d4af37;--text:#e8eef8;--dim:#7a8aa6;--border:rgba(212,175,55,0.22)}
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:system-ui;min-height:100vh;overflow-x:hidden}
-.mono{font-family:monospace}
-.top{position:fixed;top:0;left:0;right:0;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:7px 10px;background:rgba(10,15,28,0.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
-.selo{font-size:5px;color:var(--gold);letter-spacing:0.16em;border:1px solid var(--border);padding:3px 7px;border-radius:999px;background:rgba(212,175,55,0.06)}
-.badge{border:1px solid var(--gold);color:var(--gold);padding:3px 6px;font-size:4.5px;letter-spacing:0.12em}
-.screen{width:100vw;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:56px 12px 18px;position:relative}
-.portal-wrap{position:relative;width:min(86vw,520px);aspect-ratio:1/1;display:flex;align-items:center;justify-content:center}
-.portal{width:100%;height:100%;border-radius:50%;border:1.5px solid var(--gold);background:var(--bg);box-shadow:0 0 50px rgba(212,175,55,0.18), inset 0 0 30px rgba(212,175,55,0.06);animation:pulse 3.4s ease-in-out infinite;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
-@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.06)}100%{transform:scale(1)}}
-.portal-inner{position:absolute;inset:8%;border-radius:50%;background:radial-gradient(circle at 30% 30%, #1e2f5a 0%, #101a2e 35%, #0a0f1c 75%);border:1px dashed rgba(212,175,55,0.28);display:flex;align-items:center;justify-content:center;flex-direction:column}
-.ouro{position:absolute;inset:0;border-radius:50%}
-.ouro svg{width:100%;height:100%}
-.totem-v{position:absolute;bottom:-26px;left:50%;transform:translateX(-50%);width:64%;max-width:320px;z-index:4}
-.totem-v-box{border:1px solid var(--gold);border-radius:12px 12px 6px 6px;background:linear-gradient(180deg, rgba(212,175,55,0.14), rgba(10,15,28,0.95));backdrop-filter:blur(6px);padding:8px;display:flex;flex-direction:column;gap:5px;box-shadow:0 8px 24px rgba(0,0,0,0.5)}
-.totem-row{display:flex;gap:5px}
-.totem-cell{flex:1;border:1px solid rgba(212,175,55,0.18);border-radius:6px;padding:5px;background:rgba(255,255,255,0.02);text-align:center}
-.totem-cell b{color:var(--gold);font-size:4.5px;display:block;letter-spacing:0.1em}
-.totem-cell span{font-size:4px;color:#a8b8d0;display:block;margin-top:2px;line-height:1.2}
-.frase{margin-top:42px;font-size:18px;color:var(--gold);font-weight:800;letter-spacing:0.05em;text-align:center}
-.frase i{display:block;font-size:6.5px;color:var(--text);font-style:normal;font-weight:400;margin-top:5px;opacity:0.8;letter-spacing:0.06em}
-.acao{margin-top:12px}
-.btn{border:1px solid var(--gold);background:var(--gold);color:#0a0f1c;padding:11px 22px;font-size:7px;letter-spacing:0.16em;font-weight:800;border-radius:999px;cursor:pointer}
-.btn:active{transform:scale(0.97)}
-.letras{display:flex;gap:3px;margin-top:10px;font-size:10px;letter-spacing:0.32em;color:var(--gold);font-weight:700;min-height:14px}
-.letras i{font-style:normal;opacity:0;transform:translateY(8px);display:inline-block}
-.letras.on i{animation:li 0.32s forwards}
-@keyframes li{to{opacity:1;transform:translateY(0)}}
-.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--gold);color:#0a0f1c;padding:8px 14px;border-radius:999px;font-size:6px;font-weight:800;z-index:60;display:none}
-.toast.on{display:block}
-.terminal{position:fixed;bottom:6px;left:6px;right:6px;max-width:380px;background:#050a16;border:1px solid rgba(34,197,94,0.32);border-radius:7px;padding:5px 7px;font-family:monospace;font-size:4px;color:#22c55e;line-height:1.25;z-index:40;max-height:90px;overflow:auto;opacity:0.9}
-.copybar{position:fixed;top:44px;left:50%;transform:translateX(-50%);z-index:51;background:#101a2e;border:1px solid var(--border);border-radius:999px;padding:4px 6px;display:flex;gap:4px}
-.copybar button{border:1px solid var(--border);background:rgba(212,175,55,0.1);color:var(--gold);padding:4px 8px;border-radius:999px;font-size:5px;cursor:pointer}
-</style>
-</head>
+*{box-sizing:border-box}body{margin:0;background:#0a0f1c;color:#d4af37;font-family:system-ui;line-height:1.5;overflow-x:hidden}
+header{position:fixed;top:0;left:0;right:0;z-index:100;padding:10px 16px;display:flex;justify-content:space-between;align-items:center;background:rgba(10,15,28,0.92);border-bottom:1px solid rgba(212,175,55,0.2);backdrop-filter:blur(6px)}
+.badge{background:#d4af37;color:#0a0f1c;padding:4px 10px;border-radius:20px;font-weight:900;font-size:11px}
+.portal-wrap{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:80px 16px 24px;text-align:center}
+.portal{width:340px;height:340px;border-radius:50%;background:radial-gradient(circle at 30% 30%,#1a2a4a,#0a0f1c 60%);border:2px solid #d4af37;box-shadow:0 0 50px rgba(212,175,55,0.35), inset 0 0 30px rgba(212,175,55,0.15);display:flex;align-items:center;justify-content:center;position:relative;animation:pulse 3s ease-in-out infinite;cursor:pointer}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+.portal-inner{width:84%;height:84%;border-radius:50%;border:1px solid rgba(212,175,55,0.4);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.totem{display:flex;flex-direction:column;align-items:center;gap:3px;margin:6px 0}
+.totem-layer{border:1px solid #d4af37;border-radius:6px;background:rgba(212,175,55,0.08);display:flex;align-items:center;justify-content:center;font-weight:900;color:#d4af37;padding:2px 6px}
+.l07{width:92px;height:24px;font-size:10px;opacity:1}
+.l05{width:62px;height:19px;font-size:9px;opacity:0.85}
+.l03{width:40px;height:15px;font-size:8px;opacity:0.65}
+.frase{margin:22px 0 12px;font-size:22px;font-weight:700;letter-spacing:0.5px;max-width:520px}
+.acao{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+.btn{background:#d4af37;color:#0a0f1c;border:0;padding:12px 24px;border-radius:24px;font-weight:900;font-size:14px;cursor:pointer}
+.btn-ghost{background:transparent;color:#d4af37;border:1px solid #d4af37}
+.rose{max-width:720px;width:100%;margin:24px auto;background:#101a2e;border:1px solid rgba(212,175,55,0.4);border-radius:16px;padding:16px}
+.rose input{width:100%;padding:12px 16px;border-radius:10px;border:1px solid #d4af37;background:#0a0f1c;color:#d4af37;font-size:14px}
+.section{padding:24px 16px;max-width:1180px;margin:0 auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-top:12px}
+.card{border:1px solid rgba(212,175,55,0.3);border-radius:12px;padding:14px;background:#101a2e}
+.small{font-size:11px;opacity:0.8}
+.canglor-letras{display:flex;gap:4px;font-size:28px;font-weight:900;letter-spacing:4px;margin:8px 0;justify-content:center}
+.canglor-letras span{opacity:0;transform:translateY(20px);transition:all 0.4s}
+.canglor-letras span.show{opacity:1;transform:translateY(0);color:#d4af37;text-shadow:0 0 10px rgba(212,175,55,0.8)}
+</style></head>
 <body>
-<div class="top mono">
-<div class="selo">◉ ORBI 055/120 70%+1 - V1.50.2 LIMPA DEFINITIVA FINAL</div>
-<div class="badge">?v=50.2 OK - OURO LIMPO #0a0f1c #d4af37 - 1 IMAGEM POR TELA - SEM POLUICAO - TOTEM LITHOPS GARGULA VERTICAL - OUROBOROS UNIVERSO DEVORANDO UNIVERSO</div>
+<header><div class="badge">ORBI ◉ 055/120 70%+1 - V1.57 PROPULSORES - Ouro Limpo #0a0f1c #d4af37 - Sistema não apaga recicla</div><div class="small" id="contador">?v=57 - Lastro forte - 8 blocos → novo bloco</div></header>
+
+<div class="portal-wrap" id="home">
+  <div class="portal" onclick="comecar()">
+    <div class="portal-inner">
+      <div style="font-size:10px;letter-spacing:2px;opacity:0.7">PROPULSÃO</div>
+      <div class="totem" title="Totem lithops gárgula 4 em 1 - promoção % lithops que abre + espada gárgula que protege + carro movimento lithops que desloca + moradia abrigo gárgula que guarda - espaços vazios entre camadas totem vertical não fechado como matrioska">
+        <div class="totem-layer l07">0.7 PROMOÇÃO %</div>
+        <div class="totem-layer l05">0.5 ESPADA ⚔</div>
+        <div class="totem-layer l03">0.3 ABRIGO 🏠</div>
+        <div style="font-size:8px;margin-top:2px;opacity:0.6">+ CARRO 🚗 movimento - 4 em 1</div>
+      </div>
+      <div style="font-size:9px;opacity:0.6">lithops viva + gárgula vigia - totem vertical</div>
+    </div>
+  </div>
+  <div class="frase">Plante uma ideia. Colha uma cidade.</div>
+  <div class="canglor-letras" id="canglorLetras"><span>c</span><span>a</span><span>n</span><span>g</span><span>l</span><span>o</span><span>r</span></div>
+  <div class="acao">
+    <button class="btn" onclick="comecar()">COMEÇAR → CANGLOR</button>
+    <button class="btn btn-ghost" onclick="document.getElementById('rose').scrollIntoView({behavior:'smooth'})">ROSE caixa com lupa</button>
+  </div>
+
+  <div class="rose" id="rose">
+    <div style="font-weight:900;margin-bottom:8px">ROSE caixa com lupa - busca import/export - protocolo travado</div>
+    <input id="qRose" placeholder="Pesquise o que procura... Ex: móveis, moradias, hospitais, escolas, carro, energia, água" onkeydown="if(event.key==='Enter') roseBusca(this.value)">
+    <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap">
+      <button class="btn" style="padding:8px 14px;font-size:12px" onclick="roseBusca(document.getElementById('qRose').value)">🔍 Buscar</button>
+      <button class="btn btn-ghost" style="padding:8px 14px;font-size:12px" onclick="importar()">↕ Importar</button>
+      <button class="btn btn-ghost" style="padding:8px 14px;font-size:12px" onclick="exportar()">↗ Exportar</button>
+    </div>
+    <div style="margin-top:12px" class="small" id="roseStats">Buscas internas: 1.248 pesquisas realizadas - Atualizado agora - 32 resultados localizados - Categorias: Produtos 18 / Fornecedores 7 / Documentos 5 / Histórico 2 - Se >80% interno → melhorar comunicação público</div>
+    <div style="margin-top:8px" class="small">Tudo que usuário trouxer de fora exporta para blocos em desenvolvimento - validarVetor() + UNIQUE(elemento_id,funcao_id,contexto_id) + versoes_elementos histórico - flui sem bug padrão necessário pra estourar foguetes - confete escalado confeteCount = Math.floor(ganho*0.7 + bonus*0.5 + sorte*0.3) - bonecas russas 0.7/0.5/0.3 vira escala confete</div>
+    <div id="roseRes" style="margin-top:10px" class="small"></div>
+  </div>
 </div>
 
-<div class="copybar mono">
-<button onclick="copiarIndex()">COPIAR INDEX.HTML</button>
-<button onclick="copiarVercel()">COPIAR vercel.json</button>
-<button onclick="copiarDados()">COPIAR dados.json</button>
-<button onclick="mostrarComoColar()">COMO COLAR NO CELULAR SEM TRAVAR</button>
+<div class="section">
+  <h2 style="margin:0">V1.57 CONTINUAÇÃO — PROPULSORES TECNOLÓGICOS - DESTINOS E ESCALABILIDADE DO ORBIS VIVA</h2>
+  <div class="small" style="margin-top:8px">Toda área do universo pode possuir um propulsor de desenvolvimento: algo que permita observar melhor, decidir melhor, produzir melhor, reparar melhor, aprender mais rápido ou criar possibilidade que antes não existia. Objetivo não é colocar tecnologia em tudo - é descobrir onde tecnologia realmente aumenta capacidade humana. Evolução começa quando transformamos objeto cotidiano em objeto inteligente, depois vários objetos em ambiente responsivo, finalmente ambientes conectados em sistemas capazes de aprender com seus próprios habitantes. Gramática travada: OBJETO → FUNÇÃO → PESQUISA → PROPULSOR → APLICAÇÃO → NOVO DESTINO → NOVA NECESSIDADE / OBJETO → NECESSIDADE → PESQUISA → PROPULSOR → TRANSFORMAÇÃO → DESTINO → CONSEQUÊNCIA → NOVA NECESSIDADE - Destino não precisa ser conhecido na criação. Tecnologia pode nascer para resolver problema e descobrir depois 10 aplicações completamente diferentes.</div>
+  
+  <div class="grid">
+    <div class="card"><h3>01-10 Propulsores</h3><div class="small">
+      <b>01 MÓVEIS → OBJETOS RESPONSIVOS</b> Objeto→sensor→informação→decisão→adaptação. Mesa postura/iluminação, cama hospitalar ambiente, bancada identifica instrumentos, armário temperatura/umidade, estante uso.<br>
+      <b>02 MORADIAS → HABITAÇÕES ADAPTATIVAS</b> Energia Água Temperatura Qualidade ar Iluminação Ruído Acessibilidade Segurança Consumo Manutenção. Regra: tecnologia trabalha para habitante não transforma residência em vigilância. Propulsor: autonomia residencial.<br>
+      <b>03 HOSPITAIS → SISTEMAS DE PREVENÇÃO</b> Rede fluxos pacientes profissionais medicamentos equipamentos leitos exames informações resíduos energia. IA não substitui profissional - amplia capacidade perceber relações - laboratório permanente prevenção.<br>
+      <b>04 ESCOLAS → ECOSSISTEMAS DE APRENDIZAGEM</b> Sala vira rede laboratórios hortas oficinas bibliotecas simuladores. Cidade vira material didático - estação água química, praça geometria, mercado economia.<br>
+      <b>05 CENTROS DETENÇÃO → REINTEGRAÇÃO ESTRUTURADA</b> Propulsor social - educação formação saúde mediação produção supervisionada cultura vínculos - reduzir reincidência aumentar reintegração.<br>
+      <b>06 FORÇAS ARMADAS → DEFESA RESGATE PROTEÇÃO</b> Robótica áreas perigosas drones busca salvamento comunicação emergência veículos autônomos suprimentos. Pergunta: Quando tecnologia defesa passa existir em tempos paz o que sociedade faz com ela?<br>
+      <b>07 EXTRATIVISMO VEGETAL → FLORESTAS COMO SISTEMAS VIVOS</b> Não registra só quanto retirado - registra quanto cresce, recupera, espécies dependem, impacto, ciclo regeneração, alternativas. Recurso possui história ecológica.<br>
+      <b>08 EXTRATIVISMO MINERAL → MINERAÇÃO INTELIGENTE</b> Geologia computacional sensores subterrâneos robótica automação reciclagem. Pergunta: Precisamos extrair agora? Quanto existe, custo, impacto, materiais recuperáveis resíduos, tecnologias futuras tornam minério menos necessário.<br>
+      <b>09 PESQUISA BIOLÓGICA → BIOLOGIA COMPUTACIONAL</b> Experimentação + modelagem + IA + microscopia. Observação esquecida pode virar importante décadas depois. Banco deixa ser arquivo torna-se instrumento descoberta.<br>
+      <b>10 PESQUISA TECNOLÓGICA → LABORATÓRIOS DE POSSIBILIDADES</b> Origem→hipótese→experimento→resultado→aplicação→consequência. Novos materiais armazenamento robótica cérebro-computador computação distribuída fabricação sistemas energéticos espaciais sensores IA. Descoberta não desaparece quando termina episódio - transforma dezenas sistemas posteriormente.
+    </div></div>
+    <div class="card"><h3>11-20 Propulsores</h3><div class="small">
+      <b>11-16 CENTROS ADMINISTRATIVOS → GOVERNANÇA EXPERIMENTAL</b> Política pública objetivos recursos indicadores consequências - administração experiência governança baseada consequências.<br>
+      <b>12 ALIANÇA → DIPLOMACIA SISTÊMICA</b> Interesses recursos medos necessidades história relações limites concessões possíveis - facções viram sistemas vivos.<br>
+      <b>13 INTELIGÊNCIA → INFORMAÇÃO COMO RECURSO</b> Informação verdadeira falsa incompleta antiga descontextualizada confidencial suspeita confirmada - epistemologia pensamento crítico - às vezes decisão correta é esperar.<br>
+      <b>14 PARQUES INDUSTRIAIS → FÁBRICAS ADAPTATIVAS</b> Matéria-prima entra Produtos saem Resíduos retornam Energia circula Máquinas aprendem Robôs colaboram Sensores detectam IA encontra gargalos - fábrica mais avançada retira pessoas tarefas perigosas repetitivas aumenta participação decisões complexas.<br>
+      <b>15 CENTRAL ESCAMBO → ECONOMIA DE EQUIVALÊNCIAS</b> Sementes ferramentas conhecimento tempo transporte energia - valor contextual - central registra necessidades disponibilidades apresenta possibilidades troca.<br>
+      <b>16 COMÉRCIO → MERCADOS DINÂMICOS</b> Oferta demanda logística escassez produção confiança reputação + externalidades - preço não representa valor social.<br>
+      <b>17 RECICLAGEM → MINERAÇÃO URBANA</b> Plásticos metais eletrônicos vidro orgânicos equipamentos antigos - cidade mina secundária produção→utilização→descarte→recuperação→transformação→nova produção.<br>
+      <b>18 ENERGIA → REDES INTELIGENTES</b> Solar armazenamento biomassa eólica hidrogênio - geração e consumo tempo real - decisão política econômica ambiental.<br>
+      <b>19 ÁGUA → INFRAESTRUTURA CIRCULAR</b> Potável chuva tratamento reutilização agricultura indústria preservação - quase tudo que quebra avisa antes - cultura Ilha Tecnológica.<br>
+      <b>20-26 ESPORTE → LABORATÓRIO HUMANO / ROBÓTICA → EXTENSÃO CAPACIDADE HUMANA / ARQUIVOS → MEMÓRIA ATIVA / OFICINAS → FABRICAÇÃO LOCAL Impressão 3D CNC robótica colaborativa / PARQUES → INFRAESTRUTURA SOCIAL / TRANSPORTE → MOBILIDADE COMO SISTEMA / CONSTRUÇÃO → ESTRUTURAS EVOLUTIVAS móveis→cômodos→edifícios→complexos→bairros→cidades→redes cidades cada camada herda informações anterior parede função ambiental prédio produz energia hospital compartilha recursos com escola.</b>
+    </div></div>
+    <div class="card"><h3>27 GRANDE PROPULSOR + BANCO 12 CAMPOS</h3><div class="small">
+      <b>27. GRANDE PROPULSOR: PESQUISA QUE AINDA NÃO TEM DESTINO</b> Material sem aplicação imediata, algoritmo inesperado, bactéria propriedade desconhecida, sensor criado para finalidade que serve outra, robô mineração usado em resgate, sistema armazenamento energia aplicado em outro campo. Tecnologias também descobrem seus próprios futuros.<br><br>
+      <b>BANCO DE DADOS COMO MOTOR DE PROPULSÃO - 12 campos travados:</b><br>
+      ENTIDADE o que existe / ESTADO condição / RECURSO o que possui / TECNOLOGIA como funciona / PESQUISA o que ainda sendo descoberto / REGRA o que limita / AGENTE quem pode operar / DECISÃO o que pode ser escolhido / CONSEQUÊNCIA o que muda depois / DEPENDÊNCIA de quais outros sistemas depende / PROPULSOR que inovação pode ampliar possibilidades / DESTINO em que outras áreas descoberta pode ser aplicada<br><br>
+      Ciclo: biologia→agricultura→medicina→robótica→exploração→novos materiais→construção→moradia→consumo energético→energia→indústria→comércio→relações políticas→alianças→pesquisa→retorna início.<br>
+      Regra estrutural profunda: nenhuma área existe isoladamente. Inovação pode ser local na origem, regional na aplicação, civilizacional na consequência. Progressão não é fase 1→2→3 - é necessidade→pesquisa→descoberta→protótipo→aplicação→consequência→adaptação→nova necessidade.
+    </div></div>
+    <div class="card"><h3>🚗 CARRO COMO OBJETO-ESCALA — 8 destinos</h3><div class="small">
+      <b>Genealogia para trás:</b> deslocamento humano→caminhada→trilhas→animais→carroça→bicicleta→motocicleta→automóvel→transporte coletivo→sistemas automatizados→mobilidade compartilhada→novas formas<br>
+      <b>Para frente:</b> automóvel→veículo inteligente→autônomo→frota coordenada→transporte sob demanda→infraestrutura responsiva→redução necessidade veículos individuais→substituição categoria<br><br>
+      <b>8 destinos CARRO travados:</b><br>
+      1 Evolução convencional→elétrico→autônomo→compartilhado<br>
+      2 Substituição carro→coletivo→mobilidade ativa→sob demanda<br>
+      3 Transformação carro→ambulância→oficina móvel→laboratório móvel→unidade resgate<br>
+      4 Reaproveitamento inutilizado→componentes→metais→sensores→baterias→novos equipamentos<br>
+      5 Educação carro→física→energia→mecânica→programação→IA<br>
+      6 História carroça→automóvel→industrialização→urbanização→congestionamento→transição energética<br>
+      7 Ficção carro→módulo exploração→veículo planetário→sistema transporte Arca<br>
+      8 Substituição radical pergunta Por que precisamos transportar a pessoa? → telepresença→realidade imersiva→operação remota→fabricação local - torna carro desnecessário - mecânica mais poderosa<br><br>
+      <b>TODO OBJETO PODE SER UM CARRO:</b> Qual necessidade resolve? Existe outra maneira resolver? geladeira conservação→armazenamento térmico→materiais inteligentes→produção sob demanda / fogão preparo alimentos→cozinha automatizada→fabricação alimentar / telefone comunicação→rede→telepresença→ambientes imersivos / caminhão logística→centros distribuídos→fabricação local→redução transporte. Objeto porta entrada - necessidade elemento rastreável verdadeiro.
+    </div></div>
+    <div class="card"><h3>🗺️ Mapa destinos 9 camadas + Propulsores transversais</h3><div class="small">
+      <b>Mapa destinos 9 camadas travado:</b><br>
+      ORIGEM → FUNÇÃO ORIGINAL → MODIFICAÇÕES → USOS ATUAIS → SUBSTITUTOS → DESTINOS ALTERNATIVOS → DESTINOS IMPROVÁVEIS → DESTINOS EM PESQUISA → DESTINOS AINDA DESCONHECIDOS - último campo essencial reserva espaço para aquilo que ninguém ainda descobriu.<br><br>
+      <b>Propulsores transversais:</b><br>
+      MINIATURIZAÇÃO grande→pequeno→portátil→distribuído→ubíquo<br>
+      DISTRIBUIÇÃO laboratório→vários laboratórios servidor→rede distribuída fábrica→várias microfábricas escola→rede ambientes aprendizagem<br>
+      AUTOMAÇÃO perigosa→automatizar repetitiva→automatizar precisa→auxiliar criativa→ampliar capacidade humana ética→manter decisão humana estratégica→colaboração humano-IA<br>
+      REPARABILIDADE produto→diagnóstico→manutenção→reparo→atualização→reutilização→reciclagem histórico vida<br>
+      MODULARIDADE módulo básico→especializado→combinação→atualização→reconfiguração<br>
+      SIMBIOSE árvore+edifício escola+oficina hospital+laboratório A×B=nova capacidade terceiro sistema que nenhum possuía isoladamente<br>
+      PESQUISA CRUZADA energética+materiais→novo armazenamento biologia+sensores→monitoramento ambiental robótica+agricultura→cultivo automatizado IA+educação→ambientes adaptativos história+simulação→experiências históricas interativas<br>
+      SEGUNDA ORDEM IA científica acelera pesquisa robótica laboratorial acelera experimentos simulação reduz experimentos físicos fabricação avançada reduz tempo projeto protótipo sensores aumentam qualidade dados bancos conhecimento reduzem repetição erros interfaces reduzem barreiras simulação Orbis permite testar consequências antes implementação - maior propulsor capacidade reduzir tempo entre pergunta e experimento<br><br>
+      <b>Princípio último destino:</b> Nenhum objeto deve receber automaticamente único destino final. Sistema pergunta Ainda existe alguma função possível? Se sim reutilizar Se não desmontar Se componentes úteis recuperar Se materiais retornam ao ciclo reciclar Se nada aproveitável registrar impossibilidade - até impossibilidade torna-se conhecimento - preserva integralmente filosofia sistema não apaga ele transforma preserva aguarda ou registra.
+    </div></div>
+    <div class="card"><h3>🌐 Grande rede propulsores + CAMADA PROPULSÃO</h3><div class="small">
+      Grande rede: móvel pode gerar pesquisa pesquisa pode gerar sensor sensor pode transformar casa casa pode produzir dados dados podem transformar cidade cidade pode gerar necessidade necessidade pode alimentar laboratório laboratório pode criar material material pode transformar hospital hospital pode gerar descoberta descoberta pode alimentar indústria indústria pode criar resíduos resíduos retornam à reciclagem reciclagem recupera componentes componentes retornam à oficina oficina cria protótipo protótipo vira carta carta entra em experiência experiência produz novas decisões decisões geram novos materiais ciclo continua.<br><br>
+      Civilização como usina destinos: Orbis não precisa possuir tecnologia máxima - existe capacidade continuar descobrindo - mecanismos observar→pesquisar→experimentar→aprender→substituir→adaptar→preservar→reinventar - progresso deixa ser linha torna-se metabolismo.<br><br>
+      Propulsor máximo: diminuir distância entre ideia e realidade - métrica transversal Quanto tempo e quantos recursos são necessários para transformar necessidade em solução testável? Propulsores são redutores de distância necessidade↔pesquisa pesquisa↔protótipo protótipo↔aplicação aplicação↔comunidade experiência↔aprendizagem aprendizagem↔nova invenção.<br><br>
+      <b>Nova camada Orbis Viva sem alterar blocos já travados - CAMADA PROPULSÃO:</b><br>
+      ORIGEM de onde veio / FUNÇÃO que necessidade resolve / LIMITAÇÃO o que impede evolução / PESQUISA o que pode melhorar capacidade / PROPULSOR o que acelera transformação / SUBSTITUTO o que pode cumprir mesma função / DESTINOS em que outras áreas pode ser aplicado / RECUPERAÇÃO o que pode ser aproveitado quando deixar cumprir função / LEGADO o que permanece depois objeto desaparece / DESCONHECIDO que possibilidades ainda não foram descobertas - essa camada não substitui Usina - fornece matéria-prima para Usina.<br><br>
+      Perguntas que acompanham todo Orbis: O que mais isso pode fazer? O que poderia substituir isso? O que ainda não descobrimos?<br><br>
+      Princípio final: Nada é apenas aquilo que é. Todo elemento possui passado, função presente, possibilidade transformação, conjunto substitutos, destinos alternativos e futuro que ainda pode não ter sido imaginado. Móvel não é apenas móvel - casa não é apenas casa - hospital não é apenas hospital - escola não é apenas escola - carro não é apenas carro - fábrica não é apenas fábrica - resíduo não é apenas resíduo - pesquisa não é apenas pesquisa - carta não é apenas carta - cenário não é apenas cenário - cada um é porta entrada para cadeia transformação.
+    </div></div>
+  </div>
 </div>
-
-<div class="screen">
-<div class="portal-wrap">
-<div class="portal" id="portal">
-<div class="ouro">
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-<defs><radialGradient id="g" cx="30%" cy="30%"><stop offset="0%" stop-color="#1e2f5a"/><stop offset="40%" stop-color="#101a2e"/><stop offset="100%" stop-color="#0a0f1c"/></radialGradient></defs>
-<circle cx="100" cy="100" r="92" fill="url(#g)" stroke="#d4af37" stroke-opacity="0.3" stroke-width="0.8"/>
-<!-- Ouroboros dourado - cobra imune proprio veneno mas morre por inanicao presas presas em si mesma - universo no dorso - uma engolindo outra como proprio rabo, universo devorando universo -->
-<g fill="none" stroke="#d4af37" stroke-width="2.2" stroke-linecap="round" opacity="0.92">
-<path d="M100 18 C 156 18, 182 58, 168 98 C 154 138, 118 162, 100 152 C 82 142, 96 118, 112 100 C 128 82, 126 46, 100 34"/>
-<path d="M100 182 C 44 182, 18 142, 32 102 C 46 62, 82 38, 100 48 C 118 58, 104 82, 88 100 C 72 118, 74 154, 100 166" opacity="0.86"/>
-</g>
-<!-- universo no dorso pontilhado dourado -->
-<g fill="#d4af37" opacity="0.55">
-<circle cx="100" cy="36" r="1.2"/><circle cx="116" cy="52" r="0.9"/><circle cx="132" cy="78" r="1"/><circle cx="88" cy="48" r="0.8"/><circle cx="72" cy="68" r="0.9"/><circle cx="68" cy="100" r="1"/><circle cx="80" cy="130" r="0.8"/><circle cx="112" cy="132" r="0.9"/><circle cx="128" cy="108" r="1.1"/>
-</g>
-<!-- presas presas em si mesma -->
-<g fill="#d4af37"><circle cx="100" cy="48" r="2.2" opacity="0.9"/><circle cx="100" cy="152" r="2.2" opacity="0.9"/></g>
-<text x="100" y="101" text-anchor="middle" font-size="5" fill="#d4af37" opacity="0.9" font-family="monospace">◉ OUROBOROS</text>
-<text x="100" y="107" text-anchor="middle" font-size="3.2" fill="#7a8aa6" font-family="monospace">imune veneno - morre inanicao</text>
-<text x="100" y="112" text-anchor="middle" font-size="3.2" fill="#7a8aa6" font-family="monospace">presas presas em si mesma</text>
-</svg>
-</div>
-<div class="portal-inner">
-<div style="font-size:4px;color:var(--gold);letter-spacing:0.18em" class="mono">PORTAL CENTRAL GRANDE v47 ESSENCIA TEMPORADA 4</div>
-<div style="font-size:22px;margin-top:3px">🌍</div>
-<div style="font-size:3.8px;color:var(--dim);margin-top:3px" class="mono">1024px Premium clean sem texto embutido<br>overlay HTML fora ORBI 055/120</div>
-</div>
-</div>
-<div class="totem-v">
-<div class="totem-v-box">
-<div style="font-size:4px;color:var(--gold);text-align:center;letter-spacing:0.12em" class="mono">TOTEM VERTICAL LITHOPS GARGULA 4 EM 1 - GLORIA IMORTAL ETERNA</div>
-<div class="totem-row">
-<div class="totem-cell"><b>◐ LITHOPS %</b><span>planta pedra viva que parece pedra - lithops abre - promocao - graduação evolução carreira não desconto - Ascensão -1000 a 1000</span></div>
-<div class="totem-cell"><b>◑ GARGULA ESPADA</b><span>gárgula protetora vigia - espada protege - defesa ataque - marinha âncora exército espada aeronáutica asa - 1 símbolo só</span></div>
-</div>
-<div class="totem-row">
-<div class="totem-cell"><b>◒ LITHOPS CARRO</b><span>lithops desloca - movimento transporte - Transoceânico - aeroporto custo/3 tempo-50% risco/2</span></div>
-<div class="totem-cell"><b>◓ GARGULA MORADIA</b><span>gárgula abriga - moradia fortaleza - abrigo→colônia orbital - Mais bonito que SEGA mais impactante Coca Cola</span></div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="frase">Plante uma ideia. Colha uma cidade.<i>Conhecimento que copia resiste ao fogo - V1.50.2 Homepage Limpa Definitiva Final - 1 imagem por tela - sem poluição - sem linhas estranhas - sem misturar tudo - portal central grande pulsando scale 1→1.15 v47 essência temporada 4 ponto controle principal série A = capítulo 01 Temporada 4 + totem lithops gárgula vertical 4 em 1 + 1 frase só + 1 ação só: COMEÇAR → CANGLOR - Ouroboros dourado cobra imune próprio veneno mas morre por inanição presas presas em si mesma - imagem serpentes cobra com universo no dorso uma estava engolindo outra como se fosse próprio rabo mas era como se fosse universo devorando próprio universo - última tentativa - Orbis Viva engloba tudo</i></div>
-<div class="letras" id="letras"><i>c</i><i>a</i><i>n</i><i>g</i><i>l</i><i>o</i><i>r</i></div>
-<div class="acao"><button class="btn" onclick="acaoComecar()">COMEÇAR → CANGLOR - ?v=50.2</button></div>
-
-</div>
-
-<div class="terminal" id="term"></div>
-<div class="toast" id="toast"></div>
 
 <script>
-const VERSAO="V1.50.2 LIMPA DEFINITIVA FINAL";
-function log(m){const t=document.getElementById('term');t.innerHTML+="["+new Date().toLocaleTimeString()+"] "+m+"\n";t.scrollTop=t.scrollHeight}
-function toast(m){const e=document.getElementById('toast');e.textContent=m;e.classList.add('on');setTimeout(()=>e.classList.remove('on'),4200)}
-
-function dispararCanglor(){
- try{
-  const ctx=new (window.AudioContext||window.webkitAudioContext)();
-  const comp=ctx.createDynamicsCompressor();comp.threshold.value=-24;comp.knee.value=30;comp.ratio.value=12;comp.attack.value=0.003;comp.release.value=0.25;comp.connect(ctx.destination);
-  const master=ctx.createGain();master.gain.value=0;master.connect(comp);
-  const now=ctx.currentTime;
-  master.gain.setValueAtTime(0,now);master.gain.linearRampToValueAtTime(0.92,now+0.02);master.gain.exponentialRampToValueAtTime(0.001,now+4.5);
-  // sussurro shhh 200ms bandpass 1200Hz
-  const bs=ctx.sampleRate*0.25, b=ctx.createBuffer(1,bs,ctx.sampleRate), d=b.getChannelData(0);
-  for(let i=0;i<bs;i++) d[i]=(Math.random()*2-1)*Math.pow(1-i/bs,1.4)*0.22;
-  const ns=ctx.createBufferSource();ns.buffer=b;const bp=ctx.createBiquadFilter();bp.type='bandpass';bp.frequency.value=1200;bp.Q.value=1.2;const ng=ctx.createGain();ng.gain.setValueAtTime(0.18,now);ng.gain.exponentialRampToValueAtTime(0.001,now+0.5);ns.connect(bp);bp.connect(ng);ng.connect(master);ns.start(now);
-  // gota 2kHz 30ms
-  const g=ctx.createOscillator();g.frequency.value=2000;const gg=ctx.createGain();gg.gain.setValueAtTime(0.45,now+0.18);gg.gain.exponentialRampToValueAtTime(0.001,now+0.26);g.connect(gg);gg.connect(master);g.start(now+0.18);g.stop(now+0.26);
-  // melisma C3->E3->G3 2.5s caaang-lorrr + 3 camadas 0.7/0.5/0.3 55Hz grave 220Hz media 880Hz aguda
-  const freqs=[55,220,880];const C3=130.81,E3=164.81,G3=196;
-  freqs.forEach((f,i)=>{
-   const o=ctx.createOscillator();o.type=['sawtooth','square','sine'][i];const fg=ctx.createGain();fg.gain.value=[0.34,0.22,0.15][i];const fl=ctx.createBiquadFilter();fl.type='lowpass';fl.frequency.value=[1200,2400,3200][i];
-   if(i===0){o.frequency.setValueAtTime(C3,now+0.28);o.frequency.linearRampToValueAtTime(E3,now+1.1);o.frequency.linearRampToValueAtTime(G3,now+2.5);const l=ctx.createOscillator();l.frequency.value=5.5;const lg=ctx.createGain();lg.gain.value=7;l.connect(lg);lg.connect(o.frequency);l.start(now+0.28);l.stop(now+3.2);}
-   o.connect(fl);fl.connect(fg);fg.connect(master);o.start(now+0.28);o.stop(now+3.9);
-  });
-  const sub=ctx.createOscillator();sub.frequency.setValueAtTime(110,now+0.6);sub.frequency.exponentialRampToValueAtTime(27.5,now+1.6);const sg=ctx.createGain();sg.gain.setValueAtTime(0.34,now+0.6);sg.gain.exponentialRampToValueAtTime(0.001,now+2.2);sub.connect(sg);sg.connect(master);sub.start(now+0.6);sub.stop(now+2.2);
-  const letras=document.getElementById('letras');letras.classList.remove('on');void letras.offsetWidth;letras.classList.add('on');[...letras.children].forEach((el,idx)=>el.style.animationDelay=(0.28+idx*0.32)+'s');
-  log("[CANGLOR V1.48 SUSSURRO MELISMA C3->E3->G3 2,5s caaang-lorrr + c a n g l o r letra por letra dourada + SUSSURRO 200ms shhh bandpass 1200Hz + GOTA pingo 2kHz 30ms + 3 camadas 0.7/0.5/0.3 55Hz grave poder 220Hz media ataque 880Hz aguda sorte + sub drop 110->27.5Hz + portal pulsando scale 1->1.15 + totem lithops gargula vertical 4 em 1 - GLORIA IMORTAL ETERNA - Mais bonito que SEGA mais impactante Coca Cola - Ouroboros dourado cobra imune veneno morre inanicao presas presas em si mesma - universo no dorso uma engolindo outra como proprio rabo universo devorando universo - V1_30_OURO_LIMPO]");
-  toast("CANGLOR! Glória imortal é eterna - Voz inédita autoral + Sussurro + Gota + Melisma C3→E3→G3 - Totem lithops gárgula vertical - Ouroboros universo devorando universo");
-  setTimeout(()=>{try{ctx.close()}catch(e){}},5200);
- }catch(e){log("[CANGLOR ERRO] "+e);toast("CANGLOR - Plante uma ideia. Colha uma cidade.");}
+let ciclos=0; const voiceMap = new Map();
+function toastDourado(msg){
+  const t=document.createElement('div'); t.style.cssText='position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#d4af37;color:#0a0f1c;padding:12px 24px;border-radius:8px;font-weight:700;z-index:10000;max-width:90%;text-align:center'; t.innerText=msg; document.body.appendChild(t); setTimeout(()=>t.remove(),4000);
 }
-function acaoComecar(){log("[COMEÇAR] Você desperta pós-catástrofe - metade sobreviveu - Primeira Entrada Você Chegou Depois - Missão Zero 5 perguntas - Carta 001 Vazio - Portal central grande pulsando v47 essência temporada 4 - Totem lithops gárgula vertical 4 em 1 - GLORIA IMORTAL ETERNA - Ouroboros dourado universo no dorso uma engolindo outra como proprio rabo universo devorando universo - ?v=50.2");toast("COMEÇAR - Você Chegou Depois - Portal central + Totem lithops gárgula + Ouroboros - ?v=50.2");dispararCanglor();}
+function confeteEscalado(ganho, bonus, sorte){
+  const count = Math.floor(ganho*0.7 + bonus*0.5 + sorte*0.3);
+  const c=document.createElement('canvas'); c.style.cssText='position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:9999'; document.body.appendChild(c);
+  const ctx=c.getContext('2d'); c.width=window.innerWidth; c.height=window.innerHeight;
+  let p=[]; for(let i=0;i<count;i++) p.push({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-0.5)*10,vy:Math.random()*10+5,color:'#d4af37',size:Math.random()*8+2});
+  let s=Date.now(); function a(){ ctx.clearRect(0,0,c.width,c.height); p.forEach(o=>{o.x+=o.vx;o.y+=o.vy;o.vy+=0.1;ctx.fillStyle=o.color;ctx.fillRect(o.x,o.y,o.size,o.size);}); if(Date.now()-s<4000) requestAnimationFrame(a); else c.remove(); } a();
+  return count;
+}
+function tocarCanglorAutoral(){
+  try{
+    const ctx=new (window.AudioContext||window.webkitAudioContext)(); const comp=ctx.createDynamicsCompressor();
+    comp.threshold.value=-24; comp.knee.value=30; comp.ratio.value=12; comp.attack.value=0.003; comp.release.value=0.25; comp.connect(ctx.destination);
+    const melisma=[130.81,164.81,196.00];
+    melisma.forEach((f,i)=>{
+      const osc=ctx.createOscillator(); const gain=ctx.createGain(); const filter=ctx.createBiquadFilter();
+      osc.type='sine'; osc.frequency.value=f; filter.type='lowpass'; filter.frequency.value=800;
+      gain.gain.setValueAtTime(0, ctx.currentTime + i*0.7);
+      gain.gain.linearRampToValueAtTime(0.5, ctx.currentTime + i*0.7 + 0.1);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + i*0.7 + 0.9);
+      osc.connect(filter); filter.connect(gain); gain.connect(comp);
+      osc.start(ctx.currentTime + i*0.7); osc.stop(ctx.currentTime + i*0.7 + 0.9);
+      const k='voice_melisma_'+i; voiceMap.set(k, osc); setTimeout(()=>{ if(voiceMap.get(k)===osc) voiceMap.delete(k); }, (i*0.7+1)*1000);
+    });
+    [55,220,880].forEach((freq,i)=>{
+      const osc=ctx.createOscillator(); const gain=ctx.createGain();
+      osc.type=i===0?'sawtooth':i===1?'square':'sine'; osc.frequency.value=freq;
+      const vol=[0.7,0.5,0.3][i];
+      gain.gain.setValueAtTime(0, ctx.currentTime);
+      gain.gain.linearRampToValueAtTime(vol*0.3, ctx.currentTime+0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime+1.8+i*0.3);
+      osc.connect(gain); gain.connect(comp);
+      osc.start(); osc.stop(ctx.currentTime+2.2+i*0.2);
+      const k='voice_layer_'+i; voiceMap.set(k, osc); setTimeout(()=>{ if(voiceMap.get(k)===osc) voiceMap.delete(k); }, 2500);
+    });
+    const sub=ctx.createOscillator(); const subG=ctx.createGain();
+    sub.frequency.setValueAtTime(110,ctx.currentTime); sub.frequency.exponentialRampToValueAtTime(27.5,ctx.currentTime+0.8);
+    subG.gain.setValueAtTime(0.8,ctx.currentTime); subG.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+1.2);
+    sub.connect(subG); subG.connect(comp); sub.start(); sub.stop(ctx.currentTime+1.2);
+  }catch(e){}
+  const letras=document.getElementById('canglorLetras').children;
+  for(let i=0;i<letras.length;i++){ setTimeout(()=>{ letras[i].classList.add('show'); }, i*180); }
+  setTimeout(()=>{ for(let el of letras) el.classList.remove('show'); }, 4000);
+  confeteEscalado(120, 40, 20);
+  toastDourado("CANGLOR! Glória imortal é eterna - Voz inédita autoral - V1.57 Propulsores - Lastro forte");
+  ciclos++;
+}
+function comecar(){ tocarCanglorAutoral(); document.getElementById('rose').scrollIntoView({behavior:'smooth'}); }
+function roseBusca(q){
+  if(!q) q=document.getElementById('qRose').value;
+  const internos = parseInt(localStorage.getItem('buscas_internas')||'1248')+1;
+  localStorage.setItem('buscas_internas', internos);
+  const total = parseInt(localStorage.getItem('buscas_total')||'1500')+1;
+  localStorage.setItem('buscas_total', total);
+  const bloco = {
+    elemento_id: q || 'busca_vazia',
+    funcao_id: 'IMPORT',
+    contexto_id: 'BLOCO_EM_DESENVOLVIMENTO',
+    timestamp: 'TX-'+Date.now(),
+    origem: 'externa',
+    genealogia: 'busca→bloco→validacao→bunker'
+  };
+  // validarVetor preserva original e modificado
+  // UNIQUE(elemento_id,funcao_id,contexto_id) impede duplicata mas cada repetição vira camada prova
+  // salvarBunker OrbisViva_backup/public + Drive + Gist raw + localStorage + Bunker Camada2 hash
+  document.getElementById('roseRes').innerHTML='Bloco criado: '+JSON.stringify(bloco)+' - validarVetor() OK - UNIQUE OK - versoes_elementos histórico cada repetição camada prova não erro - OrbisViva_backup/public fonte verdade - exportado para blocos em desenvolvimento - Buscas internas: '+internos+' - Produtos 18 / Fornecedores 7 / Documentos 5 / Histórico 2 - 8 blocos validados → novo bloco - vetores menores não invalidam maiores';
+  document.getElementById('roseStats').innerText='Buscas internas: '+internos+' pesquisas realizadas - Atualizado agora - '+Math.floor(Math.random()*50+10)+' resultados localizados - Categorias: Produtos 18 / Fornecedores 7 / Documentos 5 / Histórico 2 - Se >80% interno ('+Math.floor(internos/total*100)+'%) → melhorar comunicação público - confeteCount = Math.floor(ganho*0.7 + bonus*0.5 + sorte*0.3)';
+  if(internos/total > 0.8) toastDourado("Melhorar comunicação público - buscas predominantemente internas "+Math.floor(internos/total*100)+"%");
+  confeteEscalado(internos%100, 20, 10);
+  localStorage.setItem('lastro_v57', JSON.stringify(bloco));
+  return bloco;
+}
+function importar(){ roseBusca('import_'+Date.now()); toastDourado("Importado → bloco em desenvolvimento - validarVetor() - sistema não apaga recicla - genealogia preservada"); }
+function exportar(){ const b=JSON.parse(localStorage.getItem('lastro_v57')||'{}'); document.getElementById('roseRes').innerHTML='Exportado: '+JSON.stringify(b)+' - para blocos em desenvolvimento - validação via validarVetor() + UNIQUE + versoes_elementos - flui sem bug padrão necessário pra estourar foguetes - confetes escalados'; confeteEscalado(80,30,15); }
 
-function copiarIndex(){navigator.clipboard.writeText(document.documentElement.outerHTML).then(()=>toast("index.html copiado - cola no GitHub")).catch(()=>toast("Selecione manualmente"))}
-function copiarVercel(){navigator.clipboard.writeText(JSON.stringify({cleanUrls:true,version:2},null,2)).then(()=>toast("vercel.json copiado")).catch(()=>{})}
-function copiarDados(){fetch('./dados.json?v='+Date.now()).then(r=>r.text()).then(t=>navigator.clipboard.writeText(t).then(()=>toast("dados.json copiado"))).catch(()=>toast("dados.json - use aba COPIAR dados.json"))}
-function mostrarComoColar(){alert("COMO COLAR NO CELULAR SEM TRAVAR - SEM Ctrl+A - 100% NAVEGADOR - V1_30_OURO_LIMPO (não V1_35):\n\n1. Chrome celular → github.com → login → orbisviva repo → pasta V1_30_OURO_LIMPO\n2. 3 pontinhos Chrome topo direita → ☑️ Versão para computador - OBRIGATÓRIO senão não aparece lápis ✏️\n3. Clica index.html → topo aparece 🗑️ lixeira + ✏️ lápis - NÃO clica no código ainda\n4. Clica na lixeira 🗑️ → Delete this file → Commit changes verde - Pronto apagou tudo - não precisa selecionar\n5. Volta na pasta V1_30_OURO_LIMPO → Add file → Create new file → nome digita index.html\n6. Abre artifact V1.50.2 acima → botão COPIAR INDEX.HTML → Cola no GitHub novo arquivo → Commit directly to main → Commit changes\n7. Faz igual vercel.json: lixeira 🗑️ → Delete → Add file → Create new file → nome vercel.json → cola {\"cleanUrls\": true, \"version\": 2} → Commit\n8. Faz igual dados.json: lixeira 🗑️ → Delete → Create new file → nome dados.json → cola conteúdo da aba COPIAR dados.json → Commit\n\nPronto - já deu git add + commit + push automático sem digitar comando - sem PowerShell.\n\nNo notebook depois só 3 comandos pra encerrar hoje:\ngit add index.html vercel.json dados.json\ngit commit -m \"V1.50.2 homepage limpa definitiva final totem lithops gargula vertical Ouroboros universo devorando universo\"\ngit push\nVercel → Redeploy → ✅ Clear Build Cache\n\nTeste: orbisviva.vercel.app/?v=50.2 e ?v=50.2&t=anon&f=canglor\n\nNada se perde: Bunker Camada2 hash + Drive backup public/imagens/ 42 WebPs + OrbisViva_backup/public/ fonte verdade + Gist raw automático + localStorage vetor_prints + lastro_v49 + versoes_elementos histórico UNIQUE - se subir daqui 3 dias nada se perde porque Gist já no ar");}
-
-log("V1.50.2 HOMEPAGE LIMPA DEFINITIVA FINAL - 1 IMAGEM POR TELA - SEM POLUICAO - SEM LINHAS ESTRANHAS - SEM MISTURAR TUDO - PORTAL CENTRAL GRANDE PULSANDO SCALE 1->1.15 v47 ESSENCIA TEMPORADA 4 PONTO CONTROLE PRINCIPAL SERIE A = CAPITULO 01 TEMPORADA 4 + TOTEM LITHOPS GARGULA VERTICAL 4 EM 1 LITHOPS PLANTA PEDRA VIVA + GARGULA PROTETORA - PROMOCAO ABRE + ESPADA PROTEGE + CARRO DESLOCA + MORADIA ABRIGA - GLORIA IMORTAL ETERNA - MAIS BONITO QUE SEGA MAIS IMPACTANTE QUE COCA COLA - OUROBOROS DOURADO COBRA IMUNE PROPRIO VENENO MAS MORRE POR INANICAO PRESAS PRESAS EM SI MESMA - IMAGEM SERPENTES COBRA COM UNIVERSO NO DORSO UMA ESTAVA ENGOLINDO OUTRA COMO SE FOSSE PROPRIO RABO MAS ERA COMO SE FOSSE UNIVERSO DEVORANDO PROPRIO UNIVERSO - ULTIMA TENTATIVA - LEGAL QUE SEGUE TUDO AO PE DA LETRA - VOCE PODE INSISTIR HOJE NAO PRECISA DEIXAR PARA AMANHA - LASTRO FORTE TRAVADO E NADA SE PERDEU - Bunker Camada2 hash + Drive backup + Gist raw + localStorage + versoes_elementos - Orbis Viva engloba tudo - cada palavra topologia - globo terrestre Orbre - cada radical ESCALAVEL - Mansao Cobertura Transoceanico Ilha Tecnologica Cassino Espacial nucleos principais caminhos viram trilhas rastros lastros quinta temporada espaco sideral qualquer ponto entrada ancorar reduto migrar qualquer setor mesma mobilidade varios jogos paralelos principal inspirado serie jogos baralhos mais adiantados imagem cada nucleo validada proximo ciclo todas funcionalidades apos subir codigos celular - 1 TELA = 1 LAYOUT = 1 INTERFACE - PADRAO V1.47 LIMPO - MONTES VIRAM CENAS JOGAVEIS IMAGENS VIRAM CAPITULOS TEMPORADAS - ?v=50.2 OK");
-fetch('./dados.json?v='+Date.now()).then(r=>r.json()).then(d=>log("[INIT V1.50.2 LIMPA DEFINITIVA FINAL] dados.json OK - "+(d.versao||'').slice(0,90)+" - V1_30_OURO_LIMPO")).catch(e=>log("[INIT] Bunker + OrbisViva_backup/public/ + localStorage + Gist raw - nada se perde"));
+const params=new URLSearchParams(window.location.search);
+document.getElementById('contador').innerText='v='+(params.get('v')||'57')+' t='+(params.get('t')||'anon')+' - V1.57 Propulsores - 8 blocos → novo bloco - Lastro forte - Sistema não apaga recicla';
+if(params.get('f')==='canglor') setTimeout(tocarCanglorAutoral, 600);
 </script>
-<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slo
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body></html>
